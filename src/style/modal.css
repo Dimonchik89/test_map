@@ -1,0 +1,45 @@
+.modal-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #000;
+    box-shadow: 2px 2px 2px #000;
+    padding: 40px;
+}
+
+.modal__big {
+    width: 400px;
+    background-color: #fff;
+
+}
+
+.modal__info {
+    width: 200px;
+}
+
+.bg__success {
+    background-color: #294B29;
+}
+
+.bg__error {
+    background-color: #FF6868;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal__input {
+    width: 100%;
+    margin-bottom: 10px !important;
+}
+
+.modal__title {
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
